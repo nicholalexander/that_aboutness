@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Shaving The Yak"
-date:   2017-10-19
-tags: [yak, shaving, ungulates]
+title: "Shaving The Yak"
+date: 2017-10-19
+tags: yak shaving ungulates dylan dylan dylan
 author: nichol
 ---
 
