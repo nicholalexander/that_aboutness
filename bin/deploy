@@ -1,0 +1,3 @@
+#!/bin/bash
+
+scp -r /Users/nicholalexander/work/theaboutness/_site/* root@165.227.109.86:/var/www/html/

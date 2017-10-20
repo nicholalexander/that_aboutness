@@ -8,4 +8,4 @@ A long time ago I wrote down a bunch of things which was helpful mostly to me.  
 
 Then, recently, I decided I was bored of that and wanted to really write down some things about other things and I wanted those things to be mine and not sell ads against them and not allow Russian bots to interact with them and to have them in "files" on a "server" that could be accessed via the open and free web.
 
-So I made this thing!  With the help of [these people](https://jekyllrb.com).  Of course it took me too long and involved shaving too many yaks but I enjoyed shaving those yaks and did so willingly and with joy.
+So I made this thing!  With the help of [these people](https://jekyllrb.com).  Of course it took me too long and involved shaving too many yaks but I enjoyed shaving those yaks and did so willingly and with great joy.
