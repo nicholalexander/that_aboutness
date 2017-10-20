@@ -2,7 +2,7 @@
 layout: post
 title:  "Shaving The Yak"
 date:   2017-10-19
-categories: yak shaving ungulates
+tags: [yak, shaving, ungulates]
 author: nichol
 ---
 

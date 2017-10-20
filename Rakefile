@@ -1,8 +1,10 @@
+require 'YAML'
+
 task :default do
   puts 'you have no default task'
 end
 
-task :new_post, [:post_name] do |task, args|
+task :new, [:post_name] do |task, args|
   # create post filename
   time_stamp = Time.now.strftime("%Y-%m-%d")
   title = args[:post_name].tr(' ', '-')
