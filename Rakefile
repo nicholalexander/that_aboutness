@@ -25,6 +25,11 @@ task :build do
   system("jekyll build")
 end
 
+task :push do 
+  system("git add . && git commit -m 'rake commit' && git push origin master")  
+end
+
+
 
 task :deploy => [:build] do
   system("./bin/deploy")
