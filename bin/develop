@@ -1,0 +1,4 @@
+#!/usr/ruby
+
+#jekyll build --watch --detach
+#cd /Users/nicholalexander/work/thataboutness/_site/ && browser-sync start --server --files "*.*"
