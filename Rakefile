@@ -26,12 +26,10 @@ task :build do
 end
 
 task :push do 
-  system("git add . && git commit -m 'rake commit' && git push origin master")  
+  system("git add . && git commit -m 'rake deploy commit' && git push origin master")  
 end
 
-
-
-task :deploy => [:build] do
+task :deploy => [:build, :push] do
   system("./bin/deploy")
 end
 
