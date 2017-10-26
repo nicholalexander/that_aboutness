@@ -3,7 +3,7 @@ layout: post
 title: "Shaving The Yak"
 date: 2017-10-19
 tags: yak shaving ungulates dylan dylan dylan
-author: nichol
+authors: nichol
 ---
 
 Well, to be honest, sometimes I like it.  It's peaceful and if you approach it with a sort of Zen mindset, it can be quite therapeutic.  And it opens up all sorts of interesting opportunities for both learning and personal growth.

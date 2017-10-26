@@ -3,7 +3,7 @@ layout: post
 title: Remember Your Fears
 date: 2017-10-23
 categories: 
-author: nichol
+authors: nichol
 tags: fear technology capitalisim atomic
 ---
 
