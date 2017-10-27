@@ -35,3 +35,24 @@ task :deploy => [:build, :push] do
   system("./bin/deploy")
 end
 
+task :develop do
+  pid1 = fork do
+    exec system('cd /Users/nicholalexander/work/that_aboutness/ && jekyll build --watch')
+  end
+  
+  pid2 = fork do
+    exec system('cd /Users/nicholalexander/work/that_aboutness/_site/ && browser-sync start --server --files "*.*"')
+  end
+
+  begin
+    puts 'You must write your blog!'
+    loop do
+    end
+  rescue Exception => e
+    Process.kill "TERM", pid1
+    Process.kill "TERM", pid2
+    Process.wait pid1
+    Process.wait pid2
+    puts 'You are done.  Good work, blogger!'
+  end
+end
