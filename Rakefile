@@ -35,3 +35,15 @@ task :deploy => [:build, :push] do
   system("./bin/deploy")
 end
 
+task :develop do
+  pid1 = fork do
+    exec system('cd /Users/nicholalexander/work/that_aboutness/ && jekyll build --watch')
+  end
+  Process.detach(pid1)
+
+  pid2 = fork do
+    exec system('cd /Users/nicholalexander/work/that_aboutness/_site/ && browser-sync start --server --files "*.*"')
+  end
+  Process.detach(pid2)
+
+end
