@@ -1,0 +1,15 @@
+.blurgh {
+  font-size: 2px;
+}
+
+@import "tachyons";
+// @import "custom_minima"
+
+p {
+  @extend .f5, .lh-copy, .measure-wide;
+}
+
+a {
+  @extend .f4, .fw6, .db, .black, .link, .hover-green;
+}
+
