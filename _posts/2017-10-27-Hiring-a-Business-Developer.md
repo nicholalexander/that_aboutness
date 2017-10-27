@@ -41,11 +41,11 @@ A business developer will be focused on the *cost* of the downtime.  Everyone ha
 
 This isn't to say you want someone who doesn't care if the thing they've built is broken.  But rather to suggest that is the developer you're talking with thinking about the larger perspective of how to help the business?
 
-This [great t-shirt](https://www.zazzle.com/nines_dont_matter_t_shirt-235118578582589495) from [Charity Majors](https://twitter.com/mipsytipsy) says it best!
+I just saw this [great t-shirt](https://www.zazzle.com/nines_dont_matter_t_shirt-235118578582589495) from [Charity Majors](https://twitter.com/mipsytipsy) and that pretty much sums it up!
 
 **3. Outsourced APIs or Custom Built?**  
 
-Building unnessecary things in house has long been a sign of overly ambitious tech teams and can be a very tempting route to go when you are thinking about how much money you are spending.  $399 per month for Analytics?!  We can just build it in house!  1000/mo for hosting?!  We'll just buy some servers!!  The long tail of maintenance is a doozy.  And more than that - you get an approximation of an analytics product.  Not something that a whole team has been dedicated to building.  
+Building unnessecary things in house has long been a sign of overly ambitious tech teams and can be a very tempting route to go when you are thinking about how much money you are spending.  $399 per month for Analytics?!  We can just build it in house!  $1000/mo for hosting?!  We'll just buy some servers!!  The long tail of maintenance is a doozy.  And more than that - you get only an approximation of an analytics product.  Not something that a whole team has been dedicated to building.  
 
 This can also be an especially attractive path as it gives a developer the sense of making an immediate impact for the company, in terms of saving money while also providing a beneficial feature.
 
