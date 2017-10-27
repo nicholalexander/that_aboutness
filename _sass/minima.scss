@@ -3,6 +3,8 @@
 }
 
 @import "tachyons";
+@import "syntax-highlighting";
+
 // @import "custom_minima"
 
 p {
@@ -20,3 +22,17 @@ ul {
 li {
   @extend .lh-copy, .pv3, .ba, .bl-0, .bt-0, .br-0, .b--dotted, .b--black-30;
 }
+
+.highlighter-rouge {
+  @extend .f5, .lh-copy, .measure-wide;
+}
+
+table {
+  @extend .f6, .w-100, .mw8, .measure-wide,;
+}
+
+td {
+  @extend .pv3, .pr3, .bb, .b--black-20;
+}
+
+
