@@ -5,6 +5,7 @@ date: 2017-10-23
 categories: 
 author: nichol
 tags: fear technology capitalisim atomic
+blurb: "A throwback to a list of fears from a long time ago from the gold old The Aboutness.  I miss that old aboutness."
 ---
 
 On July 9, 2011, I made a list of things I was afraid of at the time.  They included but were not limited to:
