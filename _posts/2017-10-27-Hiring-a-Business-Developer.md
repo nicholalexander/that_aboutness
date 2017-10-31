@@ -4,6 +4,7 @@ title: Hiring a Business Developer
 date: 2017-10-27
 categories: 
 authors: ["nichol", "matt lovan"]
+blurb: "Hiring the right developer for your company is a constant challenge, especially for non technical founders.  Here're some ideas about how to find a developer who is going to focus on what your very early stage start up needs."
 ---
 
 We've both had the opportunity to encounter situations where non technical business owners needed to hire developers with development skills.  Sometimes this comes in the form of looking for a co-founder or sometimes it is just in evaluating a developer or a dev shop to see if they can deliver what the business owner wants done.  
