@@ -1,4 +1,5 @@
 require 'YAML'
+require 'colorize'
 
 task :default do
   puts 'you have no default task'
@@ -35,7 +36,7 @@ task :deploy => [:build, :push] do
   system("./bin/deploy")
 end
 
-task :develop do
+task :write do
   pid1 = fork do
     exec system('cd /Users/nicholalexander/work/that_aboutness/ && jekyll build --watch')
   end
@@ -45,7 +46,7 @@ task :develop do
   end
 
   begin
-    puts 'You must write your blog!'
+    puts 'You must write your blog!'.blue
     loop do
     end
   rescue Exception => e
@@ -53,6 +54,6 @@ task :develop do
     Process.kill "TERM", pid2
     Process.wait pid1
     Process.wait pid2
-    puts 'You are done.  Good work, blogger!'
+    puts 'You are done.  Good work, writter!'.blue
   end
 end

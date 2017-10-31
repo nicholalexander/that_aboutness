@@ -3,7 +3,7 @@ layout: post
 title: Remember Your Fears
 date: 2017-10-23
 categories: 
-author: nichol
+authors: nichol
 tags: fear technology capitalisim atomic
 blurb: "A throwback to a list of fears from a long time ago from the gold old The Aboutness.  I miss that old aboutness."
 ---
