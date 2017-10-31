@@ -1,6 +1,6 @@
 ---
 layout: post
-title: technical interviews
+title: Technical Interviews
 date: 2017-10-27
 categories: 
 author: nichol
@@ -32,6 +32,6 @@ And what I should have said was: I'd write a migration to setup a relation betwe
 
 What I said instead was "oh um well I don't know the exact sql syntax and you'd have to do a select all from a join or something" and instead sounded like an idiot.  And though I am fully capable of perhaps figuring out the raw sql command it was not at hand to my dumb and spinning brain and instead of telling this guy his two questions were dumb, I left angry and belittled.
 
-I hate pop quizes.
+I hate pop quizes.  I have never given one in an interview and I never will.  What a dumb way to hire people.  I really really think that.
 
 <iframe src="https://giphy.com/embed/Zv6Apawffpa2k" width="100%" height="284" frameBorder="0" class="giphy-embed measure-wide" allowFullScreen></iframe>
