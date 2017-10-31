@@ -17,8 +17,10 @@ We hope that if you are a business owner evaluating your options, this distincti
 
 Business Developer, like in Business Development?  NO!  Like a developer, a writer of code, a code writer, an app maker; someone who's focused on giving you the code you need to take your fledging business to the next step while simultaneously balancing the impact of the decision making that leads to that code.  Someone who can make smart decisions for very early stage startups and who can cover a lot of ground with your fledgling tech budget instead of burning it on a server rack in the closet with a 24 bay 16G fiber channel SAN RAID drive.  (But seriously, those look pretty cool.)
 
-<center><blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Valve&#39;s Steam Store renders on the server, uses ancient jQuery 1.8, loads 12 unminified JavaScripts.<br>It moved 3.5 billion dollars in 2015. <a href="https://t.co/YLGjJheQwf">pic.twitter.com/YLGjJheQwf</a></p>&mdash; Henning Koch (@triskweline) <a href="https://twitter.com/triskweline/status/798443082740023296?ref_src=twsrc%5Etfw">November 15, 2016</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+<div class="pl5">
+  <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Valve&#39;s Steam Store renders on the server, uses ancient jQuery 1.8, loads 12 unminified JavaScripts.<br>It moved 3.5 billion dollars in 2015. <a href="https://t.co/YLGjJheQwf">pic.twitter.com/YLGjJheQwf</a></p>&mdash; Henning Koch (@triskweline) <a href="https://twitter.com/triskweline/status/798443082740023296?ref_src=twsrc%5Etfw">November 15, 2016</a></blockquote>
+  <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
 
 Building a startup is very often not about the underlying tech you use to support it.  Even more often, it turns out old tech is really good at doing things that you probably want to do.  That's how it got old!  As the above tweet deftly illustrates, having the latest and greatest under the hood doesn't matter if you have a great product that connects with people and generates revenue.
 
