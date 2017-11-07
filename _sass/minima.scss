@@ -1,7 +1,3 @@
-.blurgh {
-  font-size: 2px;
-}
-
 @import "tachyons";
 @import "syntax-highlighting";
 
@@ -35,4 +31,10 @@ td {
   @extend .pv3, .pr3, .bb, .b--black-20;
 }
 
+blockquote {
+  @extend .athelas, .ml0, .mt0, .pl4, .black-90, .bl, .bw2, .b--blue;
+  p {
+    @extend  .f5, .f4-m, .f3-l, .lh-copy, .measure, .mt0;
+  }
+}
 
