@@ -12,3 +12,5 @@ So I made this thing!  With the help of these [jekylls](https://jekyllrb.com).  
 [shaving yaks]({% post_url 2017-10-19-shaving-the-yak %}).
 
 Of note, this is not the aboutness.  The aboutness was a thing I also did from a long time ago that I wish I'd kept doing but now is gone.  You can find things from it on the waybackmachine and maybe someday I'll recreate some of those good old posts here.
+
+(signed commit via gpg)
