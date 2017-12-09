@@ -5,7 +5,7 @@ date: 2017-12-08
 categories: 
 authors: nichol
 tags: shoes rainbows code
-blurb: A Rainbow In Shoes - A walk through of writting a litte Shoes app to make a rainbow.
+blurb: A walk through of writting a litte Shoes app to make a rainbow.
 ---
 I recently started working with [Shoes](http://shoesrb.com) as part of making a game and being inspired to do so by some talks at RubyConf.  Shoes is an awesome little toolkit for making GUI interfaces for your code, written in Ruby.  I also recently had need to make a rainbow using Shoes and thought it might be a helpful exercise to write up my process to share with you.
 
