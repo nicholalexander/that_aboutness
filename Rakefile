@@ -47,7 +47,8 @@ task :write do
 
   begin
     puts 'You must write your blog!'.blue
-    loop do
+    while true do
+      sleep(100)
     end
   rescue Exception => e
     Process.kill "TERM", pid1

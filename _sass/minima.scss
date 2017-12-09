@@ -20,7 +20,9 @@ li {
 }
 
 .highlighter-rouge {
-  @extend .f5, .lh-copy, .measure-wide;
+  @extend .f6, .lh-copy;
+  font-family: Consolas, monaco, monospace;
+  width: 70%;
 }
 
 table {
