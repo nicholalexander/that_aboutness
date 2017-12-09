@@ -7,7 +7,7 @@ authors: nichol
 tags: shoes rainbows code
 blurb: A Rainbow In Shoes - A walk through of writting a litte Shoes app to make a rainbow.
 ---
-I recently started working with (Shoes)[http://shoesrb.com] as part of making a game and being inspired to do so by some talks at RubyConf.  Shoes is an awesome little toolkit for making GUI interfaces for your code, written in Ruby.  I also recently had need to make a rainbow using Shoes and thought it might be a helpful exercise to write up my process to share with you.
+I recently started working with [Shoes](http://shoesrb.com) as part of making a game and being inspired to do so by some talks at RubyConf.  Shoes is an awesome little toolkit for making GUI interfaces for your code, written in Ruby.  I also recently had need to make a rainbow using Shoes and thought it might be a helpful exercise to write up my process to share with you.
 
 Also, I'm going to write this with the idea that you have just installed shoes and that this is maybe one of the first few things you've ever done in shoes.  I'm also writing this as if maybe you are new or newish to Ruby.  If that's not you and you still want your rainbow, just skoodle on down to the end.  Yes?
 
@@ -161,7 +161,7 @@ Ok, thats all pretty much the same as the rectangle, but we've got two new thing
 
 ![circle.png]({{ "/assets/shoes_for_rainbows/circle.png" | absolute_url }})
 
-One thing that I didn't know that gave me a whole mess of trouble was that Shoes likes to refer to these angles in Radians.  I also didn't know that 0 degrees was 3 o'clock, I thought 0 degrees was 12 o'clock and 3 o'clock would've been 90 degrees.  On top of that, if you give the arc angles as 0 and 90, you get a circle!  Whhaaaa?
+One thing that I didn't know that gave me a whole mess of trouble was that Shoes likes to refer to these angles in Radians.  I also didn't know that 0 degrees was 3 o'clock; I thought 0 degrees was 12 o'clock and 3 o'clock would've been 90 degrees.  On top of that, if you give the arc angles as 0 and 90, you get a circle!  Whhaaaa?
 
 Thats because the pen is drawing the arc 90 radians around which is ~5156 degrees, which if you don't see it going round and round, just looks like a circle.  
 
@@ -291,8 +291,6 @@ I hope this was fun and made sense and helped describe a way for thinking about 
 Lastly, Shoes is an awesome community.  If you want to learn a little more about them, follow some of the links below.
 
 Thanks for following along and Shoes on!
-
-<hr>
 
 Here're some relevant links for futher illumination and investigation:
 * [A New Pair of Shoes](http://confreaks.tv/videos/rubyconf2017-a-new-pair-of-shoes)
