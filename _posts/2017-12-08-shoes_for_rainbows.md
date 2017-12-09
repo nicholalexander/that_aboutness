@@ -5,13 +5,11 @@ date: 2017-12-08
 categories: 
 authors: nichol
 tags: shoes rainbows code
-blurb: A Rainbow In Shoes
+blurb: A Rainbow In Shoes - A walk through of writting a litte Shoes app to make a rainbow.
 ---
-You have your shoes on but you need a rainbow, right?  Yes, of course you do.  So let's build one!  It's gonna be fun, yes?  I mean, who doesn't like making rainbows?  No one, that's who.
+I recently started working with (Shoes)[http://shoesrb.com] as part of making a game and being inspired to do so by some talks at RubyConf.  Shoes is an awesome little toolkit for making GUI interfaces for your code, written in Ruby.  I also recently had need to make a rainbow using Shoes and thought it might be a helpful exercise to write up my process to share with you.
 
-But wait, I don't have my shoes on, I don't like rainbows, and I have no idea what you're talking about.  That maybe true, and what I should really do is write a post about Shoes and clicker games and why I, in particular, want to have a rainbow with shoes, but I haven't done that yet and maybe I'll do it next but in the meantime, this is a nice place to start.
-
-One other thing.  I'm writing this with the idea that you have just installed shoes and that this is maybe the first thing you've ever done in shoes.  I'm also writing this as if maybe you are new to Ruby, in which case welcome!  If that's not you and you still want your rainbow, just skoodle on down to the end.  Yes?
+Also, I'm going to write this with the idea that you have just installed shoes and that this is maybe one of the first few things you've ever done in shoes.  I'm also writing this as if maybe you are new or newish to Ruby.  If that's not you and you still want your rainbow, just skoodle on down to the end.  Yes?
 
 Ok, so let's start making this rainbow, shall we?
 
@@ -31,7 +29,7 @@ end
 
 Stacks are containers for things in shoes.  And this is looking pretty good, hey?  But it's still just a window and there's nothing much to see here cause there's nothing in the stack.  Let's fix that.
 
-Lets reach for an easy shape to start with.  I like `rects` cause they are rectangles and they are pretty easy to understand.  They take a few arguments: the left point, the top point, the width of the rectangle, and the height of the rectangle.  (Or heighth as you may be so inclined.)
+Lets reach for an easy shape to start with.  I like `rects` cause they are rectangles and they are pretty easy to understand.  They take a few arguments: the left point, the top point, the width of the rectangle, and the height of the rectangle.  
 
 ```ruby
 Shoes.app width: 600, height: 600 do
@@ -41,7 +39,7 @@ Shoes.app width: 600, height: 600 do
 end
 ```  
 
-Cool.  That's more like it!  That's a rectangle alright.  Now, in Shoes the left is the left side of the window.  The top is the top of the window.  That makes sense!  What's a little confusing, maybe is that if we want another rectangle below or under or first one we have to increase the top number.  This is the top offset, so the lower in the window, the higher the value.  Not to confusing, though, yes?  Lets give our little rectangle a friend.
+Cool.  That's more like it!  That's a rectangle alright.  Now, in Shoes the left is the left side of the window.  The top is the top of the window.  That makes sense!  What's a little confusing, maybe is that if we want another rectangle below or under or first one we have to increase the top number.  This is the top offset, so the lower in the window, the higher the value.  Not too confusing, though, yes?  Lets give our little rectangle a friend.
 
 ```ruby
 Shoes.app width: 600, height: 600 do
@@ -122,7 +120,7 @@ Now you've got this!
 
 ![rainbow1.png]({{ "/assets/shoes_for_rainbows/rainbow1.png" | absolute_url }})
 
-Sweet!  Though it's sort of tedious and not very... rubyish.  Well, and this is one of the things I think is so cool about Shoes, it's all just ruby, so we can use all of our ruby tools like we would usually.  Looking at it, there are a lot of things that are the same so how bout we clean that up?  Let's make all the things that stay the same constants?  And lets notice that the only thing that increases is the top of each band of the rainbow and make that into a variable.  So we're going to add to that the value of the band height for each subsequent band of the rainbow.
+Sweet!  Though it's sort of tedious to write isn't it?  And it doesn't feel very rubyish.  Well, and this is one of the things I think is so cool about Shoes, it's all just ruby!  So we can use all of our ruby tools like we would usually.  Looking at it, there are a lot of things that are the same so how bout we clean that up?  Let's make all the things that stay the same constants?  And lets notice that the only thing that increases is the top of each band of the rainbow and make that into a variable.  So we're going to add to that the value of the band height for each subsequent band of the rainbow.
 
 And lastly, lets put all those colors into an array and go through them in a loop!  Why not?  
 
@@ -151,7 +149,7 @@ Shoes.app width: 600, height: 600 do
 end
 ```
 
-Dawg!  Looking good.  That's a rainbow to be proud of.  Or, well, is it?  What if it wasn't.  I've seen a few rainbows in my life, and that rainbow is a square.  I'm sorta thinking it should be, like, rainbow shapped.  Check it.  Lets switch out that `rect` for an `arc`.
+Looking good.  That's a rainbow to be proud of.  Or, well, is it?  What if it wasn't.  I've seen a few rainbows in my life, and that rainbow is a square.  I'm sorta thinking it should be, like, rainbow shapped.  Check it.  Lets switch out that `rect` for an `arc`.
 
 Arc's are cool but can also be confusing because it requires remembering a couple of things from trig.  This is the basic format of an arc in Shoes:
 
@@ -159,7 +157,7 @@ Arc's are cool but can also be confusing because it requires remembering a coupl
   @my_arc = arc left, top, width, height, angle1, angle2
 ```
 
-Ok, thats all pretty much the same as the rectangle, but we've got two new things, those angle1's and angle2's.  Angle1 is the first angle, where 0 is at the 3 o'clock position in a circle.  If you look at this diagram, angle1 = 0 is the red line, angle2 describes the angle between the red line and the purple line, which describes the arc of the circle in yellow.
+Ok, thats all pretty much the same as the rectangle, but we've got two new things, those angle1's and angle2's.  Angle1 is the first angle, where 0 is at the 3 o'clock position in a circle.  If you look at this diagram, angle1 = 0 is the red line, angle2 is the angle to draw the second line at, which is the purple line.  These two lines describe the arc of the circle in yellow.
 
 ![circle.png]({{ "/assets/shoes_for_rainbows/circle.png" | absolute_url }})
 
@@ -286,16 +284,19 @@ And lets see what all that gives us!
 
 Yes!  I say yes!  
 
-A final thought.  One great thing about working with tools like Shoes is that even though it has all these special methods and ways of doing things (like `strokewidth`, `nofill`, `arc`, `rect` and even how the coordinates are referenced)
+A final thought.  One great thing about working with tools like Shoes is that even though it has all these special methods and ways of doing things (like `strokewidth`, `nofill`, `arc`, `rect` and even how the coordinates are referenced) its also still just Ruby.  Learning how to mix Ruby ways of doing things, like putting the colors in an array, with the framework of Shoes helps develop the same skills that people use when using other frameworks like Rails.  Love it.
 
 I hope this was fun and made sense and helped describe a way for thinking about working with things in Shoes.  If anything is not clear, email me or tweet me and I'll try to fix it up or make it clear.  If you have any questions about getting started with Shoes or anything else on that front, let me know, please and I'll see what I can do.  If I've gotten anything wrong about my understanding about shoes, please also let me know!
 
+Lastly, Shoes is an awesome community.  If you want to learn a little more about them, follow some of the links below.
 
+Thanks for following along and Shoes on!
 
------------------------
+<hr>
 
-Here're some relevant links for futher illumination:
+Here're some relevant links for futher illumination and investigation:
 * [A New Pair of Shoes](http://confreaks.tv/videos/rubyconf2017-a-new-pair-of-shoes)
 * [Jason Clark](http://jasonrclark.com/) 
 * [Shoes website](https://shoesrb.com) 
 * [Shoes4 project on github](https://github.com/shoes/shoes4)
+* [The Manual](http://shoesrb.com/manual/Hello.html)
