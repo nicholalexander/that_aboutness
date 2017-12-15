@@ -21,7 +21,7 @@ Then run up `ifconfig` (assuming you're mac-ing) and look for the `inet` on your
 ![ifconfig.png]({{ "/assets/serve_jekyll_on_wifi/ifconfig_screenshot.png" | absolute_url }})
 
 
-Now make sure your phone is on the same wifi network, hit up http://10.0.1.95:4000 from your phone and... oh yeah.  Your sweet sweet blog.  Just for you.  From your computer via wifi to your phone.  Pretty soon you're gonna be your own ISP, amirite?
+Now make sure your phone is on the same wifi network, hit http://10.0.1.95:4000 from your phone and... oh yeah.  Your sweet sweet blog.  Just for you.  From your computer via wifi to your phone.  Pretty soon you're gonna be your own ISP, amirite?
 
-Yes, but why?  Jekyll or Rails or most servers run locally default to only listening for traffic on localhost, which only comes from... local... host?  So if you want that webrick listening on your actual ethernet channel for connections, set it to 0.0.0.0 and that does the trick!
+Yes, but why?  When Jekyll runs locally it defaults to only listening for traffic on localhost, which only comes from... local... host?  So if you want that webrick listening on your actual ethernet channel for connections, set it to 0.0.0.0 and that does the trick!
 
