@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/nicholalexander
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://thataboutness.com
+  * I am nicholalexander (https://keybase.io/nicholalexander) on keybase.
+  * I have a public key ASC-4tXcTOXB3LGLqRzxdRQtb-teLSUpgaSJ9EL6yVm-VQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101f93da7c652ff4d296c702c7f11f33c1d14a01649da7f17a5cf38b51f1ef3f7170a",
+      "host": "keybase.io",
+      "kid": "0120bee2d5dc4ce5c1dcb18ba91cf175142d6feb5e2d252981a489f442fac959be550a",
+      "uid": "9737d46f5b33eca33d16a5ad459a1b00",
+      "username": "nicholalexander"
+    },
+    "merkle_root": {
+      "ctime": 1513875631,
+      "hash": "1a9f4632b948195741232f93a30ea4a33f7fe34f0dde0e5477327b2c4d5d4444b55748434c867ae5dba40a45cccddf153a56145a64d166a1834846ad857af3a2",
+      "hash_meta": "a473f175386c4b246381cb941f107bf1a7be28b42f67a54f5d1c070be649c632",
+      "seqno": 1846029
+    },
+    "service": {
+      "hostname": "thataboutness.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.37"
+  },
+  "ctime": 1513875644,
+  "expire_in": 504576000,
+  "prev": "b0b8170a7150b10d367b649dfb29f291308a105d2540673b795624054a3cb5b8",
+  "seqno": 16,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgvuLV3Ezlwdyxi6kc8XUULW/rXi0lKYGkifRC+slZvlUKp3BheWxvYWTFA1F7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxZjkzZGE3YzY1MmZmNGQyOTZjNzAyYzdmMTFmMzNjMWQxNGEwMTY0OWRhN2YxN2E1Y2YzOGI1MWYxZWYzZjcxNzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYmVlMmQ1ZGM0Y2U1YzFkY2IxOGJhOTFjZjE3NTE0MmQ2ZmViNWUyZDI1Mjk4MWE0ODlmNDQyZmFjOTU5YmU1NTBhIiwidWlkIjoiOTczN2Q0NmY1YjMzZWNhMzNkMTZhNWFkNDU5YTFiMDAiLCJ1c2VybmFtZSI6Im5pY2hvbGFsZXhhbmRlciJ9LCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTUxMzg3NTYzMSwiaGFzaCI6IjFhOWY0NjMyYjk0ODE5NTc0MTIzMmY5M2EzMGVhNGEzM2Y3ZmUzNGYwZGRlMGU1NDc3MzI3YjJjNGQ1ZDQ0NDRiNTU3NDg0MzRjODY3YWU1ZGJhNDBhNDVjY2NkZGYxNTNhNTYxNDVhNjRkMTY2YTE4MzQ4NDZhZDg1N2FmM2EyIiwiaGFzaF9tZXRhIjoiYTQ3M2YxNzUzODZjNGIyNDYzODFjYjk0MWYxMDdiZjFhN2JlMjhiNDJmNjdhNTRmNWQxYzA3MGJlNjQ5YzYzMiIsInNlcW5vIjoxODQ2MDI5fSwic2VydmljZSI6eyJob3N0bmFtZSI6InRoYXRhYm91dG5lc3MuY29tIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMzcifSwiY3RpbWUiOjE1MTM4NzU2NDQsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiYjBiODE3MGE3MTUwYjEwZDM2N2I2NDlkZmIyOWYyOTEzMDhhMTA1ZDI1NDA2NzNiNzk1NjI0MDU0YTNjYjViOCIsInNlcW5vIjoxNiwidGFnIjoic2lnbmF0dXJlIn2jc2lnxED8MpZzn8/41hWtRt8ilJrt9Iuevd++Mh3dpYmQlDypCxEfjBr0J4zSGqoASpYoBNwvQRL4ypQHbwIl1T+HKv4IqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgC5u4aUoaLTfxwaghwuZYVBeNjx8AuGqNeRyLSy9WXAKjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/nicholalexander
+
+==================================================================
