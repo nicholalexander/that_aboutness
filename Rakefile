@@ -22,6 +22,7 @@ task :new, [:post_name] do |task, args|
 
   # open for editing
   system("subl _posts/#{file_name}")
+  Rake::Task["write"].execute
 end
 
 task :build do
