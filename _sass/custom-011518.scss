@@ -1,0 +1,39 @@
+p {
+  @extend .f4, .lh-copy, .measure-wide;
+}
+
+a {
+  @extend .f4, .fw6, .dib, .black, .link, .hover-green;
+}
+
+ul { 
+  @extend .list, .pl0, .measure, ;
+}
+
+li {
+  @extend .lh-copy, .pv3, .ba, .bl-0, .bt-0, .br-0, .b--dotted, .b--black-30;
+}
+
+.highlighter-rouge {
+  @extend .f6, .lh-copy;
+  font-family: Consolas, monaco, monospace;
+  max-width: 48em;
+  background: #eef;
+  overflow-x: auto;
+}
+
+table {
+  @extend .f6, .w-100, .mw8, .measure-wide,;
+}
+
+td {
+  @extend .pv3, .pr3, .bb, .b--black-20;
+}
+
+blockquote {
+  @extend .athelas, .ml0, .mt0, .pl4, .black-90, .bl, .bw2, .b--blue;
+  p {
+    @extend  .f5, .f4-m, .f3-l, .lh-copy, .measure, .mt0;
+  }
+}
+
