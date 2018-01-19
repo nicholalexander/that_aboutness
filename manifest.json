@@ -1,11 +1,16 @@
 {
-  "short_name": "thataboutness",
+  "short_name": "aboutness",
   "name": "that aboutness",
   "icons": [
     {
       "src": "assets/images/touch/atom-192x192.png",
       "type": "image/png",
       "sizes": "192x192"
+    },
+    {
+      "src": "assets/images/touch/atom-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
     }
   ],
   "start_url": "/",
