@@ -20,8 +20,7 @@ const RUNTIME = 'runtime';
 // A list of local resources we always want to be cached.
 const PRECACHE_URLS = [
   'index.html',
-  './',
-  '/assets/main-011518.css'
+  'assets/main-011518.css',
 ];
 
 // The install handler takes care of precaching the resources we always need.
@@ -51,7 +50,6 @@ self.addEventListener('activate', event => {
 // If no response is found, it populates the runtime cache with the response
 // from the network before returning it to the page.
 self.addEventListener('fetch', event => {
-  // bail if browser-sync
   if (event.request.url.match(/browser-sync/)) {
     return event
   }

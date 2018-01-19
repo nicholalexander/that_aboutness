@@ -9,7 +9,7 @@ layout: home
   if (navigator.serviceWorker) {
     navigator.serviceWorker.register('/sw.js').then(function(registration) {
     }).catch(function(error) {
-      console.log('ServiceWorker registration failed, report immediately to That Aboutness', error);
+      console.log('ServiceWorker registration failed', error);
     });
   };
 </script>

@@ -11,8 +11,7 @@ github_username:  nicholalexander
 markdown: kramdown
 plugins:
   - jekyll-feed
-  # - jekyll-press
-
+  
 permalink: pretty
 
 tag_page_layout: tag_page
