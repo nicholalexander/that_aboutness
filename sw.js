@@ -21,6 +21,9 @@ const RUNTIME = 'runtime';
 const PRECACHE_URLS = [
   'index.html',
   '/assets/main-011518.css',
+  '2018/01/10/Delete-Your-Account/',
+  '2017/12/15/Serve-Jekyll-on-Wifi/',
+  '2017/12/08/shoes_for_rainbows/'
 ];
 
 // The install handler takes care of precaching the resources we always need.
