@@ -11,8 +11,6 @@
  limitations under the License.
 */
 
-/* Modified 2018, Nichol Alexander */
-
 // Names of the two caches used in this version of the service worker.
 // Change to v2, etc. when you update any of the local resources, which will
 // in turn trigger the install event again.
@@ -22,7 +20,7 @@ const RUNTIME = 'runtime';
 // A list of local resources we always want to be cached.
 const PRECACHE_URLS = [
   'index.html',
-  './', // Alias for index.html
+  './',
   '/assets/main-011518.css'
 ];
 
@@ -53,7 +51,7 @@ self.addEventListener('activate', event => {
 // If no response is found, it populates the runtime cache with the response
 // from the network before returning it to the page.
 self.addEventListener('fetch', event => {
-  // bail early on browser-sync requests
+  // bail if browser-sync
   if (event.request.url.match(/browser-sync/)) {
     return event
   }
