@@ -4,12 +4,3 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
-
-<script>
-  // if (navigator.serviceWorker) {
-  //   navigator.serviceWorker.register('/sw.js').then(function(registration) {
-  //   }).catch(function(error) {
-  //     console.log('ServiceWorker registration failed', error);
-  //   });
-  // };
-</script>
