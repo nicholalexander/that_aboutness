@@ -1,2 +1,2 @@
 #!/bin/bash
-rsync -ru /Users/nicholalexander/work/that_aboutness/_site/* root@165.227.109.86:/var/www/html/
+rsync -ru /Users/nicholalexander/work/that_aboutness/_site/* root@159.203.81.168:/var/www/html/

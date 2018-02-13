@@ -4,7 +4,6 @@ gem 'colorize'
 gem 'jekyll', '~> 3.6.0'
 
 group :jekyll_plugins do
-  gem 'github-pages'
   gem 'jekyll-feed'
   gem 'jekyll-tagging'
 end
