@@ -2,9 +2,9 @@
 layout: post
 title: Stuck In Vermont, Again
 date: 2018-10-26
-categories: vermont, music
+categories:
 authors: nichol
-tags: phil collins, huey, algorithims
+tags: [phil, huey, algorithims]
 blurb: Some of the music playing at a tavern in Vermont.
 ---
 
