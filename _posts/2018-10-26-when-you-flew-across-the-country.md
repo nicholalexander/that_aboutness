@@ -24,3 +24,6 @@ blurb: "Notes from a trip I took."
 <p>And don't forget the penal principal who was so filled with purpose and love that alcohol couldn't dissuade her from the prophecy.</p> 
 
 <p>And the anesthesiologist and his wife. Down to celebrate the big two oh. Their teenage boys at home, dogging he was sure. Music, you see, is everywhere down here he said as his wife was put to sleep by a hurricane and ESPN 3 on the convention hotel bar TV's.</p> 
+
+
+![flyingsky.jpg]({{ "/assets/when_you_flew_across_the_country/flyingsky.jpg" | absolute_url }})
