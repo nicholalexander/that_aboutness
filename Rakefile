@@ -39,11 +39,11 @@ end
 
 task :write do
   pid1 = fork do
-    exec system('cd /Users/nicholalexander/work/that_aboutness/ && jekyll build --watch')
+    exec system('cd /Users/nicholalexander/work/that_aboutness/ && bundle exec jekyll build --watch')
   end
   
   pid2 = fork do
-    exec system('cd /Users/nicholalexander/work/that_aboutness/_site/ && browser-sync start --server --files "*.*"')
+    exec system('cd /Users/nicholalexander/work/that_aboutness/_site/ && bundle exec browser-sync start --server --files "*.*"')
   end
 
   begin
