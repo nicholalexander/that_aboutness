@@ -16,3 +16,10 @@ Things are about other things. This is the thing about those first things.
 
 `rake deploy`
 
+## Where is it deployed?
+
+You forgot again, hey?  Check DO.
+
+## Anything else to remember?
+
+Cloudflare?  Oh yeah.  How's that yak now?
