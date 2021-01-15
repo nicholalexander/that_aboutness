@@ -3,7 +3,7 @@ layout: post
 title: Technical Books and Beginners
 date: 2018-04-16
 categories: 
-authors: nichol
+authors: [nichol]
 tags: ['extreme programing', xp, beginners, books]
 blurb: Don't let technical books scare you away as a beginning developer, they have something to offer even if you have no idea what you're doing!
 ---

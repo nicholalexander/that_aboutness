@@ -3,7 +3,7 @@ layout: post
 title: Serve Jekyll on Wifi
 date: 2017-12-15
 categories: 
-authors: nichol
+authors: [nichol]
 tags: 
 blurb: So you want to serve your very important blog to other users of your wifi?  Gotcha.
 ---

@@ -3,7 +3,7 @@ layout: post
 title: down to new orleans
 date: 2018-10-26
 categories: 
-authors: nichol
+authors: [nichol]
 tags: 
 blurb: "Notes from a trip I took."
 ---

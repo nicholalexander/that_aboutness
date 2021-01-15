@@ -3,7 +3,7 @@ layout: post
 title: Technical Interviews
 date: 2017-10-27
 categories: 
-authors: nichol
+authors: [nichol]
 tags: technical interviews ruby ActiveRecord sql dumb
 blurb: Yes, I'm the dumbest ruby developer who ever did live.
 ---

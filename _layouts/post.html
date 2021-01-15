@@ -4,14 +4,9 @@ layout: default
 <article class="pa3 pa5-ns">
   <h1 class="f3 f1-m f-headline-l">{{ page.title | escape }}</h1>
   {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-  {{ page.date | date: date_format }}
+  {{ page.date | date: date_format }} by
 
-  {% for author in page.authors %}
-    <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <span itemprop="name">{{ author }}</span>
-    </span>
-  {% endfor %}
-
+  {{ page.authors | array_to_sentence_string }}
   <div class="pa3 pa5-ns">
     {{ content }}
   </div>

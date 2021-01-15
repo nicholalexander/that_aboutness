@@ -3,7 +3,7 @@ layout: post
 title: Delete Your Account
 date: 2018-01-10
 categories: 
-authors: nichol
+authors: [nichol]
 tags: social media facebook twitter instagram mental-health
 blurb: "Social Media is killing you and you're paying them to do it.  Delete your accounts.  This is how I deleted Twitter." 
 ---

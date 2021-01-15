@@ -3,7 +3,7 @@ layout: post
 title: thanks andy
 date: 2021-01-15
 categories:
-authors: nichol
+authors: [nichol]
 tags: [one ruby thing, andy croll, ruby]
 blurb: Andy Croll has an amazing newsletter and you should subscribe to it.
 ---

@@ -3,7 +3,7 @@ layout: post
 title: Asymetry in Hiring
 date: 2018-02-11
 categories: 
-authors: nichol
+authors: [nichol]
 tags: hiring startups power capitalisim
 blurb: Looking for a job is difficult.  Hiring is difficult.  The main contributor to this is an asymetry of power exacerbated by both sides.  Eliminate the asymetry.
 ---

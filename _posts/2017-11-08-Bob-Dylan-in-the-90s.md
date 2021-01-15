@@ -3,7 +3,7 @@ layout: post
 title: Bob Dylan in the 90s
 date: 2017-11-08
 categories: 
-authors: nichol
+authors: [nichol]
 tags: atomic dylan 90s
 blurb: Maybe it was the last best time?
 ---

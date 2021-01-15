@@ -3,7 +3,7 @@ layout: post
 title: Shoes for Rainbows
 date: 2017-12-08
 categories: 
-authors: nichol
+authors: [nichol]
 tags: shoes rainbows code
 blurb: A walk through of writting a litte Shoes app to make a rainbow.
 ---

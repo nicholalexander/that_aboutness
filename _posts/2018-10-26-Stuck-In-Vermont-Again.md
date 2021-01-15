@@ -3,7 +3,7 @@ layout: post
 title: Stuck In Vermont, Again
 date: 2018-10-26
 categories:
-authors: nichol
+authors: [nichol]
 tags: [phil, huey, algorithims]
 blurb: Some of the music playing at a tavern in Vermont.
 ---
