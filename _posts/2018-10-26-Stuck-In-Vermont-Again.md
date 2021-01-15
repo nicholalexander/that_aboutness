@@ -17,5 +17,5 @@ blurb: Some of the music playing at a tavern in Vermont.
 </p>
 
 <p>
-  <iframe src="https://open.spotify.com/embed/user/nicholalexander/playlist/7kepRUkN4a2Tb06oeS1ZG0" width="80%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+  <iframe src="https://open.spotify.com/embed/playlist/7kepRUkN4a2Tb06oeS1ZG0" width="80%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </p>
