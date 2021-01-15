@@ -10,4 +10,8 @@ layout: default
   <div class="pa3 pa5-ns">
     {{ content }}
   </div>
+
+  <div>
+    <i>{{ page.tags | array_to_sentence_string }}</i>
+  </div>
 </article>
