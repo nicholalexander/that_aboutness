@@ -1,2 +1,5 @@
 #!/bin/bash
+
+echo "copying site to deeoh"
 rsync -ru /Users/nicholalexander/work/that_aboutness/_site/* root@159.203.81.168:/var/www/html/
+echo "done"
