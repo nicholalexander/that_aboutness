@@ -10,7 +10,7 @@ task :new, [:post_name] do |task, args|
   time_stamp = Time.now.strftime("%Y-%m-%d")
   title = args[:post_name].tr(' ', '-')
   file_name = "#{time_stamp}-#{title}.md"
-  
+
   # create front matter
   front_matter = YAML.load_file('./_data/front_matter_template.yml')
   front_matter["date"] = Date.parse(time_stamp)
@@ -29,8 +29,8 @@ task :build do
   system("jekyll build")
 end
 
-task :push do 
-  system("git add . && git commit -m 'rake deploy commit' && git push origin master")  
+task :push do
+  system("git add . && git commit -m 'rake deploy commit' && git push origin master")
 end
 
 task :deploy => [:build, :push] do
@@ -39,11 +39,7 @@ end
 
 task :write do
   pid1 = fork do
-    exec system('cd /Users/nicholalexander/work/that_aboutness/ && bundle exec jekyll build --watch')
-  end
-  
-  pid2 = fork do
-    exec system('cd /Users/nicholalexander/work/that_aboutness/_site/ && bundle exec browser-sync start --server --files "*.*"')
+    exec system('cd /Users/nicholalexander/work/that_aboutness/blog/ && bundle exec jekyll serve --livereload')
   end
 
   begin
@@ -53,9 +49,7 @@ task :write do
     end
   rescue Exception => e
     Process.kill "TERM", pid1
-    Process.kill "TERM", pid2
     Process.wait pid1
-    Process.wait pid2
     puts 'You are done.  Good work, writter!'.blue
   end
 end
