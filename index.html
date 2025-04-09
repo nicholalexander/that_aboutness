@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+<section class="mw7 center">
+  <h2 class="athelas ph3 ph0-l">{{site.description}}</h2>
+
+  {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+  {% for post in paginator.posts %}
+    <article class="pv4 bt bb b--black-10 ph3 ph0-l">
+      <div class="flex flex-column flex-row-ns">
+        <div class="w-100 w-60-ns pr3-ns order-2 order-1-ns">
+          <h1 class="f3 athelas mt0 lh-title">
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}</a>
+            </h1>
+          <p class="f5 f4-l lh-copy athelas">
+            {{ post.blurb | escape }}
+          </p>
+        </div>
+      </div>
+
+        <p class="f6 lh-copy mv0">
+          By <span class=""> {{ post.authors | join: ", " }}</span>
+        </p>
+
+      <time class="f6 db">{{ post.date | date: date_format }}</time>
+    </article>
+  {% endfor %}
+
+  <!-- Pagination links -->
+  <div class="pagination flex justify-between items-center ph3 pv4">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}" class="f6 link dim ba ph3 pv2 mb2 dib black">Previous</a>
+    {% else %}
+      <span class="f6 ba ph3 pv2 mb2 dib black-30">Previous</span>
+    {% endif %}
+
+    <span class="page_number f6">
+      Page {{ paginator.page }} of {{ paginator.total_pages }}
+    </span>
+
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="f6 link dim ba ph3 pv2 mb2 dib black">Next</a>
+    {% else %}
+      <span class="f6 ba ph3 pv2 mb2 dib black-30">Next</span>
+    {% endif %}
+  </div>
+
+  <div class="tr pa3">
+    <a class="f6 dib ph2 link mid-gray dim" href="{{ "/feed.xml" | relative_url }}">subscribe via RSS</a>
+  </div>
+</section>
