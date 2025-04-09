@@ -11,8 +11,13 @@ github_username:  nicholalexander
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-paginate
   
 permalink: pretty
+
+# Pagination settings
+paginate: 5
+paginate_path: "/page/:num/"
 
 tag_page_layout: tag_page
 tag_page_dir: tag

@@ -42,6 +42,7 @@ GEM
       tty-which (~> 0.4.1)
     jekyll-feed (0.15.1)
       jekyll (>= 3.7, < 5.0)
+    jekyll-paginate (1.1.0)
     jekyll-sass-converter (3.0.0)
       sass-embedded (~> 1.54)
     jekyll-tagging (1.1.0)
@@ -86,6 +87,7 @@ DEPENDENCIES
   jekyll
   jekyll-browsersync
   jekyll-feed
+  jekyll-paginate
   jekyll-tagging
   rake
   webrick
