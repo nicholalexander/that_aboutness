@@ -1,6 +1,6 @@
 ---
 layout: post
-title: thanks andy
+title: Thanks Andy
 date: 2021-01-15
 categories:
 authors: [nichol]

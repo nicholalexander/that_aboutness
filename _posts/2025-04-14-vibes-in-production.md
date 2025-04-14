@@ -1,6 +1,6 @@
 ---
 layout: post
-title: production vibes
+title: Production Vibes
 date: 2025-04-14
 categories:
 authors:
