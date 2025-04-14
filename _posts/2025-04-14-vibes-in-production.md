@@ -6,7 +6,7 @@ categories:
 authors:
 - nichol
 tags: ai vibe coding production iteration experienced engineering
-blurb: Vibe coding can be about more than creating an MVP.  Lets explore the spectrum between Vibes and Craft.
+blurb: There's a spectrum between Vibes and Craft.
 ---
 
 "Vibe coding" as a phrase is sort of driving me crazy.  So in order to determine if I was being HYPEnotized, I decided to sit down and build a small app for my daughter - a little react doohickey of a thing to help her in her college search.  Along the way I had my breath taken away by the amazing experience of working with agents and also started to think about the spectrum between pure vibes and what I consider to be production level code.
