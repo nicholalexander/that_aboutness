@@ -1,3 +1,39 @@
 ---
 ---
 @import "minima";
+
+// Custom styles for homepage
+.site-description {
+  margin-bottom: 30px;
+  font-size: 1.1em;
+  font-style: italic;
+}
+
+.post-blurb, .post-excerpt {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.post-tags {
+  margin-top: 8px;
+  margin-bottom: 15px;
+  
+  .post-tag-label {
+    font-size: 0.9em;
+    margin-right: 5px;
+  }
+  
+  .post-tag {
+    display: inline-block;
+    background: #f0f0f0;
+    padding: 2px 8px;
+    margin-right: 5px;
+    border-radius: 3px;
+    font-size: 0.8em;
+    text-decoration: none;
+    
+    &:hover {
+      background: #e0e0e0;
+    }
+  }
+}
