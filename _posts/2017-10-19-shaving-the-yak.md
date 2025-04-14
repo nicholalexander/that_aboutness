@@ -2,16 +2,16 @@
 layout: post
 title: "Shaving The Yak"
 date: 2017-10-19
-tags: yak shaving ungulates dylan dylan dylan
+tags: yak shaving ungulates
 blurb: "Yes, yes, I actually did shave this god damn yak, along with a few others, and you know what?  I liked it."
 authors: [nichol]
 ---
 
 Well, to be honest, sometimes I like it.  It's peaceful and if you approach it with a sort of Zen mindset, it can be quite therapeutic.  And it opens up all sorts of interesting opportunities for both learning and personal growth.
 
-For example, did you know that the Yak has over seventeen different kinds of hair?   You would only know this if you've shaved one.  If you haven't, how would you?  See what I'm saying?  
+For example, did you know that the Yak has over seventeen different kinds of hair?   You would only know this if you've shaved one.  If you haven't, how would you?  See what I'm saying?
 
-Also, get this! Yaks are ticklish.  True!  They are one of only 2 ungulates that can be tickled.  This makes for some tricky tickling if you get into their arm pits in the wrong way.  And when yaks laugh, they kick.  And believe you me, you don't want to be yak kicked.  Again, these are experiences you wouldn't know about lest you had shaved one!  
+Also, get this! Yaks are ticklish.  True!  They are one of only 2 ungulates that can be tickled.  This makes for some tricky tickling if you get into their arm pits in the wrong way.  And when yaks laugh, they kick.  And believe you me, you don't want to be yak kicked.  Again, these are experiences you wouldn't know about lest you had shaved one!
 
 ![yak](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Bos_grunniens_at_Letdar_on_Annapurna_Circuit.jpg/1280px-Bos_grunniens_at_Letdar_on_Annapurna_Circuit.jpg)
 
