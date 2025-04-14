@@ -8,6 +8,29 @@ layout: default
 {% endfor %}
 </ul>
 
-<div id="tag-cloud">
-  {{ site | tag_cloud }}
+<div class="tag-section">
+  <h3>All Tags</h3>
+  <div id="tag-cloud" style="width: 100%; height: 350px;"></div>
+
+  <!-- Load jQCloud JavaScript and CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqcloud/1.0.4/jqcloud.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqcloud/1.0.4/jqcloud.min.js"></script>
+
+  <script>
+    $(document).ready(function() {
+      var tags = [
+        {% for tag in site.tags %}
+          {text: "{{ tag[0] }}", weight: {{ tag[1].size }}, link: "/tag/{{ tag[0] | slugify }}/"},
+        {% endfor %}
+      ];
+
+      $("#tag-cloud").jQCloud(tags, {
+        width: $("#tag-cloud").width(),
+        height: 350,
+        colors: ["#aab", "#99a", "#889", "#778", "#667", "#556", "#445", "#334"],
+        fontSize: {from: 0.1, to: 0.03}
+      });
+    });
+  </script>
 </div>
