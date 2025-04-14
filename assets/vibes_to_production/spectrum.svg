@@ -1,0 +1,61 @@
+<svg viewBox="0 0 1000 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient background -->
+  <defs>
+    <linearGradient id="spectrum" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9D4EDD"/>
+      <stop offset="100%" stop-color="#2E6F95"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main spectrum bar -->
+  <rect x="50" y="120" width="900" height="60" fill="url(#spectrum)" rx="5" ry="5"/>
+
+  <!-- Title -->
+  <text x="500" y="40" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold">The Coding Spectrum: Vibes to Craft</text>
+
+  <!-- Endpoints descriptions -->
+  <rect x="30" y="200" width="150" height="80" rx="10" ry="10" fill="white" fill-opacity="0.7" stroke="#999" stroke-width="1"/>
+  <text x="40" y="220" font-family="Arial" font-size="12">Fast, intuitive,
+    <tspan x="40" dy="20">feeling-driven,</tspan>
+    <tspan x="40" dy="20">AI-augmented</tspan>
+  </text>
+
+  <rect x="820" y="200" width="150" height="80" rx="10" ry="10" fill="white" fill-opacity="0.7" stroke="#999" stroke-width="1"/>
+  <text x="830" y="220" font-family="Arial" font-size="12">Deliberate, artisanal,
+    <tspan x="830" dy="20">deeply considered,</tspan>
+    <tspan x="830" dy="20">human excellence</tspan>
+  </text>
+
+  <!-- Markers and labels for each stage - Using 7 meaningful steps -->
+  <!-- Starting point -->
+  <line x1="50" y1="110" x2="50" y2="190" stroke="white" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="50" y="100" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#9D4EDD">Vibes Only</text>
+
+  <!-- Step 1 -->
+  <line x1="175" y1="120" x2="175" y2="180" stroke="white" stroke-width="1" stroke-dasharray="5,3"/>
+  <text x="175" y="210" text-anchor="middle" font-family="Arial" font-size="12" transform="rotate(45 175,210)">AI-Generated with Light Edits</text>
+
+  <!-- Step 2 -->
+  <line x1="300" y1="120" x2="300" y2="180" stroke="white" stroke-width="1" stroke-dasharray="5,3"/>
+  <text x="300" y="100" text-anchor="middle" font-family="Arial" font-size="12" transform="rotate(-45 300,100)">Working Prototype</text>
+
+  <!-- Step 3 -->
+  <line x1="425" y1="120" x2="425" y2="180" stroke="white" stroke-width="1" stroke-dasharray="5,3"/>
+  <text x="425" y="210" text-anchor="middle" font-family="Arial" font-size="12" transform="rotate(45 425,210)">Structured and Readable</text>
+
+  <!-- Step 4 -->
+  <line x1="550" y1="120" x2="550" y2="180" stroke="white" stroke-width="1" stroke-dasharray="5,3"/>
+  <text x="550" y="100" text-anchor="middle" font-family="Arial" font-size="12" transform="rotate(-45 550,100)">Tested and Documented</text>
+
+  <!-- Step 5 -->
+  <line x1="675" y1="120" x2="675" y2="180" stroke="white" stroke-width="1" stroke-dasharray="5,3"/>
+  <text x="675" y="210" text-anchor="middle" font-family="Arial" font-size="12" transform="rotate(45 675,210)">Peer Reviewed</text>
+
+  <!-- Step 6 -->
+  <line x1="800" y1="120" x2="800" y2="180" stroke="white" stroke-width="1" stroke-dasharray="5,3"/>
+  <text x="800" y="100" text-anchor="middle" font-family="Arial" font-size="12" transform="rotate(-45 800,100)">Optimized and Hardened</text>
+
+  <!-- Endpoint -->
+  <line x1="950" y1="110" x2="950" y2="190" stroke="white" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="950" y="100" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#2E6F95">Craft</text>
+</svg>
