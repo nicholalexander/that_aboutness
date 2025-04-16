@@ -19,3 +19,6 @@ For the record, MCP has always stood for and will forever only stand for just on
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AvayPCoHGFE?si=dDf5_ZtnK75lz07o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="padding: 50px;"></iframe>
 
+Also cool on the Ruby side:
+* https://github.com/funwarioisii/mcp-rb
+* https://github.com/maquina-app/rails-mcp-server
